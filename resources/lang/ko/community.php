@@ -60,7 +60,7 @@ return [
 
             'upload_more' => [
                 'title' => '업로드 제한 감소',
-                'description' => '최대 10개 까지 (Ranked된 비트맵 당) 추가적인 Pending상태의 비트맵을 업로드할 수 있습니다.',
+                'description' => '최대 10개 까지 (Ranked된 비트맵 당) 추가적인 대기 상태의 비트맵을 업로드할 수 있습니다.',
             ],
 
             'early_access' => [

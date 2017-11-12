@@ -101,17 +101,17 @@ return [
 
     'topic_watches' => [
         'index' => [
-            'title' => '구독한 주제글',
+            'title' => '구독한 주제',
             'title_compact' => '구독',
-            'title_main' => '<strong>구독</strong>한 주제글',
+            'title_main' => '<strong>구독</strong>한 주제',
 
             'box' => [
-                'total' => 'Topics subscribed',
-                'unread' => 'Topics with new replies',
+                'total' => '구독한 주제',
+                'unread' => '새 답글이 있는 주제글',
             ],
             'info' => [
-                'total' => 'You subscribed to :total topics.',
-                'unread' => 'You have :unread unread replies to subscribed topics.',
+                'total' => '당신이 구독한 주제글은 총 :total 개 입니다.',
+                'unread' => '구독한 주제에 대한 읽지 않은 답변이 :unread 개 있습니다.',
             ],
         ],
 
@@ -254,8 +254,8 @@ return [
         ],
 
         'watch' => [
-            'state-0' => 'Unsubscribed from topic',
-            'state-1' => 'Subscribed to topic',
+            'state-0' => '주제가 구독 취소되었습니다',
+            'state-1' => '주제가 구독 되었습니다',
             'watch-0' => '주제 구독 해제하기',
             'watch-1' => '주제 ',
         ],
